@@ -10,7 +10,7 @@ jobs:
     - uses: cachix/install-nix-action@v13
     - uses: cachix/cachix-action@v10
       with:
-        name: nix-getting-started-template
+        name: henrik-ch-first
         # If you chose signing key for write access
         signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
         # If you chose API tokens for write access OR if you have a private cache
